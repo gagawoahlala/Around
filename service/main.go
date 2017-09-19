@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"reflect"
 	"github.com/pborman/uuid"
-	"context"
-	"cloud.google.com/go/bigtable"
+	//"context"
+	//"cloud.google.com/go/bigtable"
 
 
 )
@@ -23,7 +23,13 @@ const (
 	PROJECT_ID = "balmy-ground-180122"
 	BT_INSTANCE = "around-post"
 	// Needs to update this URL if you deploy it to cloud.
+<<<<<<< HEAD
 	ES_URL = "http://52.43.84.96:9200"
+=======
+	//ES_URL = "http://52.37.134.14:9200"
+	ES_URL = "http://52.43.84.96:9200"
+
+>>>>>>> ba46d1530266fd7d6965e9dc616135a29c0fb81b
 
 
 )
